@@ -40,3 +40,4 @@ silent! autocmd VimEnter * RemoveConflictingAlignMaps
 
 " Enable JSHint error highlighting
 let g:JSHintHighlightErrorLine=1
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files

@@ -142,8 +142,6 @@ if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
 
-Plugin 'tpope/vim-dispatch'
-
 " ~/.vimrc
 set background=dark
 colorscheme railscasts
